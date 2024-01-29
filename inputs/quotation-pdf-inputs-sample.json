@@ -1,0 +1,57 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 201,
+	"service_label": "FUNC_QUOTATION_PDF",
+	"api_type": "generates",
+	"QuotationsHeaderWithItem": [
+		{
+			"Quotation": 1,
+			"QuotationStatus": "QT",
+			"QuotationDate": "2024-01-10",
+			"QuotationType": "OD",
+			"Buyer": 101,
+			"BuyerName": "TEST鋼材株式会社",
+			"Seller": 201,
+			"SellerName": "TEST商事株式会社",
+			"BindingPeriodValidityStartDate": "2024-01-10",
+			"BindingPeriodValidityEndDate": "2024-01-15",
+			"RequestedDeliveryDate": "2024-01-25",
+			"TotalGrossAmount": 2423850,
+			"Contract": 1,
+			"ContractItem": 1,
+			"PricingDate": "2024-01-10",
+			"PaymentTerms": "0001",
+			"PaymentMethod": "T",
+			"TransactionCurrency": "JPY"
+		}
+	],
+	"QuotationsItem": [
+		{
+			"Quotation": 1,
+			"QuotationItem": 1,
+			"QuotationItemCategory": "INVP",
+			"Product": "SM570TMC-001",
+			"SizeOrDimensionText": "11.00 X 2000.0 X 6000.0",
+			"QuotationItemText": "SM570TMC-001",
+			"QuotationItemTextByBuyer": "SM570TMC-001",
+			"QuotationItemTextBySeller": "SM570TMC-001",
+			"QuotationQuantityInBaseUnit": 1036,
+			"QuotationQuantityInDeliveryUnit": 1,
+			"BaseUnit": "KG",
+			"DeliveryUnit": "員数",
+			"RequestedDeliveryDate": "2024-01-25",
+			"NetAmount": 673400,
+			"TaxAmount": 67340,
+			"GrossAmount": 740740
+		}
+	],
+	"api_schema": "DPFMFuncQuotationPDFGenerates",
+	"accepter": [
+		"Quotation"
+	]
+}
